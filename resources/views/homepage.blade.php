@@ -5,12 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Primi passi Laravel</title>
-</head>
-<body>
-    <h1>Welcome to laravel</h1>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
-    {{$hello}} 
+</head>
+<body class="bg-warning-subtle">
     
     
+    <h1 class="text-center bg-warning-subtle ">{{$hello}} </h1>
+    <nav class="navbar navbar-expand-lg bg-warning d-flex justify-content-center ">
+        <div class="container-fluid  d-flex justify-content-center align-items-center   ">
+                <a class="navbar-brand" href="#">Go to other pages!</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="/page1">Page One</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active " href="/page2">Page Two</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+            </div>
+    </nav>
+
+
+    
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>

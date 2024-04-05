@@ -15,7 +15,21 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
 
-    $hello = "Ciao a tutti";
+    $hello = "Welcome to Laravel page";
 
     return view('homepage', compact('hello'));
 });
+
+Route::get('/page1', function () {
+
+    $welcome = "Welcome to page 1";
+
+    return view('page1', compact('welcome'));
+})->name('pageone');
+
+
+Route::get('/page2', function () {
+
+    $hi = "Welcome to page 2";
+    return view('page2', compact('hi'));
+})->name('pagetwo');

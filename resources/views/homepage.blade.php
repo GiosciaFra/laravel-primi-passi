@@ -7,6 +7,10 @@
     <title>Primi passi Laravel</title>
 </head>
 <body>
-    ciao
+    <h1>Welcome to laravel</h1>
+
+    {{$hello}} 
+    
+    
 </body>
 </html>

@@ -12,9 +12,9 @@
     
     
     <h1 class="text-center bg-warning-subtle ">{{$hello}} </h1>
-    <nav class="navbar navbar-expand-lg bg-warning d-flex justify-content-center ">
-        <div class="container-fluid  d-flex justify-content-center align-items-center   ">
-                <a class="navbar-brand" href="#">Go to other pages!</a>
+    <nav class="navbar navbar-expand-lg bg-warning ">
+        <div class="container-fluid   ">
+                <a class="navbar-brand text-white ">Go to other pages!</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
